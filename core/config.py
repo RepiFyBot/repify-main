@@ -7,7 +7,7 @@ def restart_program():
   os.execl(python, python, *sys.argv)
 
 class Configuration():
-    token = "MTE3OTgxMzE4NTQ4MjY1NzgxMg.GDdc4_.8oIU3VzV61ZFjDaClMhEnit-Bh19gPCy4KDeT0"
+    token = ""
     owner_ids = [1151502339476312086]
 
     class Colors:
@@ -23,8 +23,8 @@ class Configuration():
        caution = "<:caution:1180159540411510885>"
 
     class Database:
-      host = 'hansken.db.elephantsql.com'
-      user = 'dwrrivrk'
-      password = 'KFn76H-kfCDQ-Fv6Y7H7UhIdAiK5mdWU'
-      database = 'dwrrivrk'
-      port = 5432
+      host = ''
+      user = ''
+      password = ''
+      database = ''
+      port = 
